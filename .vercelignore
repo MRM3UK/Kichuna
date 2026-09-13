@@ -1,1 +1,8 @@
 
+# Ignore Python and config files so Vercel doesn't trigger its Python backend builder
+requirements.txt
+scripts/
+input/
+.github/
+.gitignore
+README.md
