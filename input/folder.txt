@@ -1,0 +1,10 @@
+# ============================================================
+# PIXELDRAIN FOLDERS
+# ============================================================
+# Format: GROUP NAME - URL
+# Split on the FIRST " - " (space-dash-space)
+# Group names may contain hyphens: "My-Drama - https://..."
+# Lines starting with # are comments. Blank lines are ignored.
+# ============================================================
+
+Blovers - https://pixeldrain.com/l/isE9wov4
