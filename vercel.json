@@ -2,7 +2,7 @@
   "cleanUrls": true,
   "headers": [
     {
-      "source": "/(.*).m3u",
+      "source": "/output/(.*).m3u",
       "headers": [
         {
           "key": "Content-Type",
