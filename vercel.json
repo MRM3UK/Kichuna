@@ -1,8 +1,5 @@
 {
   "cleanUrls": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/output/$1" }
-  ],
   "headers": [
     {
       "source": "/(.*).m3u",
