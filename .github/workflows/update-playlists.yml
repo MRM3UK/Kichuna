@@ -50,7 +50,7 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git add output/
+          git add output/ index.html
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No playlist changes detected."
