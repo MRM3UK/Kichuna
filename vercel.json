@@ -1,8 +1,8 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "buildCommand": "pip install -r requirements.txt && python scripts/generate_playlists.py",
-  "outputDirectory": "output",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/output/$1" }
+  ],
   "headers": [
     {
       "source": "/(.*).m3u",
@@ -17,7 +17,7 @@
         },
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600"
+          "value": "public, max-age=1800"
         }
       ]
     },
